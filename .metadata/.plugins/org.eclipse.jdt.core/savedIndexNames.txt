@@ -21,7 +21,6 @@ INDEX VERSION 1.129+/Users/chriscrutt/GitHub/Eclipse/.metadata/.plugins/org.ecli
 3720681883.index
 3321539481.index
 1833648217.index
-3817947816.index
 680827947.index
 3302703152.index
 2545238116.index

@@ -22,7 +22,7 @@ public class helloWorld {
 		if (userName.length() <= 5 ) {
 			
 			yes = true;
-			System.out.println("Hello " + firstName + "!");
+			System.out.println("Hey " + firstName + "!");
 			System.out.println();
 			
 		} else if (userName.length() > 5) {
