@@ -1,0 +1,24 @@
+package lesson1;
+
+public class carMilage {
+	
+	public static void main(String[] args) {
+		
+		var oldCarMPG = 10;
+		var oldCarPrice = 15000;
+		var newCarMPG = 50;
+		var newCarPrice = 30000;
+		var milesDriven = 50000;
+		var gasPrice = 4;
+		
+		var oldGasPrice = milesDriven / oldCarMPG * gasPrice;
+		var newGasPrice = milesDriven / newCarMPG * gasPrice;
+		
+		System.out.println(oldGasPrice + oldCarPrice);
+		System.out.println(newGasPrice + newCarPrice);
+		
+		
+		
+	}
+
+}

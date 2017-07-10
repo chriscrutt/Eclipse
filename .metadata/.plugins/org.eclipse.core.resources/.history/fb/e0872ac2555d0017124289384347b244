@@ -1,0 +1,27 @@
+package lesson1;
+
+public class carMilage {
+	
+	public static void main(String[] args) {
+		
+		int oldCarMPG = 10;
+		int oldCarPrice = 15000;
+		int newCarMPG = 50;
+		int newCarPrice = 30000;
+		int milesDriven = 50000;
+		int gasPrice = 4;
+		
+		int oldGasPrice = milesDriven / oldCarMPG * gasPrice;
+		int newGasPrice = milesDriven / newCarMPG * gasPrice;
+		
+		int totalOld = oldGasPrice + oldCarPrice;
+		int totalNew = newGasPrice + newCarPrice;
+		
+		System.out.println("The old car will cost $" + totalOld + " in 50,000 miles.");
+		System.out.println("The new car will cost $" + totalNew + newCarPrice + " in 50,000 miles.");
+		
+		
+		
+	}
+
+}
